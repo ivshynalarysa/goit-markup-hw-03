@@ -2,6 +2,23 @@ body { font-family: Roboto, sans-serif; color:#434455;
      font-weight: regular; font-size: 16px;
      font-line-height: 24px; background-color: #ffffff; }
 
+a {text-decoration: none;}  
+ul {list-style: none; margin: 0; padding-left: 0;}   
+p {margin: 0 ;}
+h1, h2, h3 {margin: 0;}
+.card {display: block;}
+.conteiner { 
+     
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-container {
+    
+display: flex;
+align-items: center;}
+
      
  .section-main-title { background-color: #2e2f42; }
  .main-title {font-size: 56px; line-height: 1.07;}
@@ -9,15 +26,18 @@ body { font-family: Roboto, sans-serif; color:#434455;
  .logoheader {
     font-family: "Raleway", sans-serif; font-weight: 700; 
     font-size: 18px;line-height: 1.17; letter-spacing: 0.03em; 
-    text-transform: uppercase;color: #4d5ae5;}
+    text-transform: uppercase;color: #4d5ae5;
+    margin-right: 76px;}
  .logoheader .logo-color {color: #2E2F42;}   
 
 .navlink {list-style: none;}
 .navlink .navi:hover, .navlink .navi:focus {
     text-decoration: underline; color: #404BBF;}
 .navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500; color: #2E2F42;}
+.navmain {display: flex; align-items: center;}
 
-.address {font-style: normal;}
+.address {font-style: normal; display: flex;
+    }
 .link-address:hover, .link-address:focus {color: #404BBF;}
 .link-address {line-height: 1.5; letter-spacing: 0.02em; color: #434455; }
 
