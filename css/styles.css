@@ -19,10 +19,10 @@ img {display: block; max-width: 100%; height: auto;}
      
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 .section {padding-top: 120px; padding-bottom: 120px;}
+
 /*header*/
 .header {border-bottom: 1px solid #e7e9fc;}
 
@@ -53,9 +53,10 @@ img {display: block; max-width: 100%; height: auto;}
 .section-main-title {
     background-color: #2e2f42; 
     align-items: center; padding: 188px 0;}
-.main-title {
+.main-title { display: flex;
     font-size: 56px;
-    line-height: 1.07; padding-bottom: 48px; }
+    line-height: 1.07; padding-bottom: 48px; max-width: 496px;
+    }
 
 .button {color: #ffffff;background: #4D5AE5; 
     cursor:pointer; font-weight: 500; 
