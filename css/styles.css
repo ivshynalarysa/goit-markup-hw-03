@@ -21,6 +21,7 @@ img {display: block; max-width: 100%; height: auto;}
     padding-left: 15px;
     padding-right: 15px;
 }
+.section {padding-top: 120px; padding-bottom: 120px;}
 /*header*/
 .header-container {
     display: flex; padding-top: 24px ; padding-bottom: 24px;
@@ -74,7 +75,10 @@ img {display: block; max-width: 100%; height: auto;}
     padding-left: 275px; padding-right: 275px;}
 
 /*section 2*/
-.values-list {flex-direction: row; gap: 24px; width: 1128px;}
+.visually-hidden {position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%);
+clip: rect(0 0 0 0); overflow: hidden;}
+.values-list {flex-direction: row; gap: 24px; width: 1128px; display: flex; flex-wrap: wrap; gap: 24px;}
+.values-list .values-block {width: calc((100% - 72px) / 4);}
 .values-block { width: 264px;
     align-items: flex-start;
     justify-content: flex-start;
@@ -88,13 +92,13 @@ img {display: block; max-width: 100%; height: auto;}
 /*section 3*/
 
 .ourteam-section {background-color: #f4f4fd; }
-.ourteam-title {font-size: 36px; line-height: 1.11; text-align: center;letter-spacing: 0.02em;text-transform: capitalize; color:#2e2f42;}
-.ourteam-list {list-style: none;}
+.ourteam-title {font-size: 36px; line-height: 1.11; text-align: center;letter-spacing: 0.02em;text-transform: capitalize; color:#2e2f42; padding-bottom: 72px;}
+.ourteam-list {list-style: none; display: flex; flex-wrap: wrap; gap: 24px; }
+.ourteam-list .staff {width: calc((100% - 72px) / 4);}
 .staff {background-color: #FFFFFF;display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;}
@@ -103,8 +107,13 @@ img {display: block; max-width: 100%; height: auto;}
     padding-bottom: 8px; color: #2e2f42;}
 .staff-p {line-height: 1.5; letter-spacing: 0.02em;}
 .staff .card {padding-bottom: 32px;}
-.outportfolio-list {list-style: none;}
-.outportfolio-title {font-size: 36px; line-height: 1.11; text-align: center; letter-spacing: 0.02em;  text-transform: capitalize; color: #2e2f42; }
+
+/*section 4*/
+
+.outportfolio-list {list-style: none;display: flex; flex-wrap: wrap; gap: 24px;}
+.outportfolio-list .portfolio-block {width: calc((100% - 48px) / 3);}
+.outportfolio-title {font-size: 36px; line-height: 1.11; text-align: center; letter-spacing: 0.02em; 
+     text-transform: capitalize; color: #2e2f42; padding-bottom: 72px;}
 .portfolio-block {width: 360px; border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
