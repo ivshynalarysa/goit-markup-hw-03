@@ -27,7 +27,7 @@ img {display: block; max-width: 100%; height: auto;}
 .header {border-bottom: 1px solid #e7e9fc;}
 
 .header-container {padding: 0 15px;
-    display: flex; padding-top: 24px ; padding-bottom: 24px;
+    display: flex; 
     align-items: center; justify-content: space-between;}
 
 .logoheader {
@@ -42,7 +42,7 @@ img {display: block; max-width: 100%; height: auto;}
 .navlink {list-style: none; display: flex; gap: 40px; margin-right: 332px;}
 .navlink .navi:hover, .navlink .navi:focus {
     text-decoration: underline; color: #404BBF;}
-.navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500; color: #2E2F42; padding: 24px 0;}
+.navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500; color: #2E2F42; padding: 24px 0; display: block;}
 
 .address {font-style: normal;}
 .address-list {display: flex; gap: 40px; }
@@ -56,7 +56,9 @@ img {display: block; max-width: 100%; height: auto;}
 .main-title { display: flex;
     font-size: 56px;
     line-height: 1.07; padding-bottom: 48px; max-width: 496px;
-    }
+    text-align: center; margin-left: auto; margin-right: auto;
+    letter-spacing: 0.02em;
+    color: #ffffff;}
 
 .button {color: #ffffff;background: #4D5AE5; 
     cursor:pointer; font-weight: 500; 
@@ -71,10 +73,7 @@ img {display: block; max-width: 100%; height: auto;}
     }
 .button:hover, .button:focus {color: #ffffff;background-color: #404BBF;}
 
-.main-title {text-align: center; 
-    letter-spacing: 0.02em; color: #ffffff;  
-    padding-top: 188px;  
-    padding-left: 275px; padding-right: 275px;}
+
 
 /*section 2*/
 .visually-hidden {position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%);
